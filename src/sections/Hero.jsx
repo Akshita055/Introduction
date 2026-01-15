@@ -3,7 +3,7 @@ import { motion, useMotionValue, useTransform } from 'framer-motion';
 import { fadeInUp, staggerContainer } from '../utils/animations';
 import { ContainerTextFlip } from '../components/ui/container-text-flip';
 import { TextGenerateEffect } from '../components/ui/text-generate-effect';
-import profileImage from '../assets/profile/profile.jpg';
+import profileImage from '../assets/Profile/Profile.JPG';
 import resumeFile from '../assets/Resume/Akshita_Singh_Resume.pdf';
 
 const Hero = () => {
