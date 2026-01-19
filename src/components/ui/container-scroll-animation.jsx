@@ -32,10 +32,10 @@ export const ContainerScroll = ({ titleComponent, children }) => {
       <div className="max-w-6xl mx-auto px-6 md:px-8 relative space-y-12">
         <div className="max-w-3xl">{titleComponent}</div>
 
-        <div className="relative h-[70vh] md:h-[80vh] overflow-visible">
+        <div className="relative h-auto md:h-[70vh] lg:h-[80vh] overflow-visible pb-4">
           <motion.div
             style={{ scale, y: translateY, opacity }}
-            className="sticky top-32 sm:top-20"
+            className="md:sticky md:top-24 lg:top-20"
           >
             <div className="glass rounded-3xl border border-white/10 shadow-2xl overflow-hidden">
               {children}
